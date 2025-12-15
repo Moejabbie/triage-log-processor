@@ -1,0 +1,7 @@
+ERROR Resource not found (Line 1)
+info Health check running (Line 2)
+Failure System crash detected (Line 3)
+DEBUG Database connection successful (Line 4)
+debug User login successful (Line 5)
+Warn Disk space nearing capacity (Line 6)
+

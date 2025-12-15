@@ -1,4 +1,4 @@
-# 🛠️ System Log Triage & Assignment Tool (triage-log-processor.sh)
+# triage-log-processor# 🛠️ System Log Triage & Assignment Tool (triage-log-processor.sh)
 
 ## Project Overview
 
@@ -55,25 +55,4 @@ This transforms raw logs into a categorized assignment list in a single executio
 ```bash
 ./triage-log-processor.sh app_output.log
 
-🧠 Core Processing Pipeline (For Reference)
-
-grep -Ei 'info|debug|error|failure|warn' "$1" | sed -E \
-  -e 's/info/INFO-spock/gi' \
-  -e 's/debug/DEBUG-kirk/gi' \
-  -e 's/error/ERROR-mccoy/gi' \
-  -e 's/failure/FAILURE-scotty/gi' \
-  -e 's/warn/WARN-uhura/gi'
-
-🤝 Attribution and Professional Disclosure
-
-AI assistance was used for:
-
-Validating sed and grep syntax
-Reviewing shell scripting best practices
-Refining documentation clarity
-All final logic was implemented and tested independently.
-
-👤 Author
-Moe Jabbie
-GitHub: https://github.com/Moejabbie
-LinkedIn: https://www.linkedin.com/in/moe-jabbie
+System log triage automation using sed an
